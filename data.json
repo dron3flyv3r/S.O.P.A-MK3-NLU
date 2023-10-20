@@ -1,0 +1,242 @@
+[
+    {
+        "text": "What's the weather like in New York?",
+        "intent": "GetWeather",
+        "entities": [
+            {
+                "start": 8,
+                "end": 9,
+                "entity": "Location",
+                "value": "New York"
+            }
+        ]
+    },
+    {
+        "text": "Set an alarm for 7:30 AM",
+        "intent": "SetAlarm",
+        "entities": [
+            {
+                "start": 5,
+                "end": 10,
+                "entity": "Time",
+                "value": "7:30 AM"
+            }
+        ]
+    },
+    {
+        "text": "Remind me to buy groceries at 5 PM",
+        "intent": "SetAlarm",
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "entity": "Time",
+                "value": "5 PM"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "entity": "Activity",
+                "value": "buy groceries"
+            }
+        ]
+    },
+    {
+        "text": "Play some jazz music",
+        "intent": "PlayMusic",
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "entity": "Activity",
+                "value": "jazz music"
+            }
+        ]
+    },
+    {
+        "text": "Where can I find a good pizza place in Chicago?",
+        "intent": "FindPlace",
+        "entities": [
+            {
+                "start": 10,
+                "end": 10,
+                "entity": "Location",
+                "value": "Chicago"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "entity": "Activity",
+                "value": "good pizza"
+            }
+        ]
+    },
+    {
+        "text": "Remind me to buy groceries at 5 PM",
+        "intent": "SetAlarm",
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "entity": "Time",
+                "value": "5 PM"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "entity": "Activity",
+                "value": "buy groceries"
+            }
+        ]
+    },
+    {
+        "text": "What is the weather like in New York?",
+        "intent": "GetWeather",
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "entity": "Location",
+                "value": "New York"
+            }
+        ]
+    },
+    {
+        "text": "Where is the nearest coffee shop?",
+        "intent": "GetCoffee",
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "entity": "Amenity",
+                "value": "coffee shop"
+            }
+        ]
+    },
+    {
+        "text": "Play some ACDC on Spotify",
+        "intent": "PlayMusic",
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "entity": "Artist",
+                "value": "ACDC"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "entity": "Service",
+                "value": "Spotify"
+            }
+        ]
+    },
+    {
+        "text": "Set a timer for 5 minutes",
+        "intent": "SetTimer",
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "entity": "Duration",
+                "value": "5 minutes"
+            }
+        ]
+    },
+    {
+        "text": "What is the weather like in San Francisco?",
+        "intent": "GetWeather",
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "entity": "Location",
+                "value": "San Francisco"
+            }
+        ]
+    },
+    {
+        "text": "Remind me to buy milk at 5 PM",
+        "intent": "SetAlarm",
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "entity": "Time",
+                "value": "5 PM"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "entity": "Activity",
+                "value": "buy milk"
+            }
+        ]
+    },
+    {
+        "text": "Play some music on Spotify",
+        "intent": "PlayMusic",
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "entity": "Service",
+                "value": "Spotify"
+            }
+        ]
+    },
+    {
+        "text": "What is the weather like in Seattle?",
+        "intent": "GetWeather",
+        "entities": [
+            {
+                "start": 7,
+                "end": 7,
+                "entity": "Location",
+                "value": "Seattle"
+            }
+        ]
+    },
+    {
+        "text": "Where is the nearest coffee shop?",
+        "intent": "GetCoffee",
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "entity": "Amenity",
+                "value": "coffee shop"
+            }
+        ]
+    },
+    {
+        "text": "Play some ACDC on Spotify",
+        "intent": "PlayMusic",
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "entity": "Artist",
+                "value": "ACDC"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "entity": "Service",
+                "value": "Spotify"
+            }
+        ]
+    },
+    {
+        "text": "Set a timer for 5 minutes",
+        "intent": "SetTimer",
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "entity": "Duration",
+                "value": "5 minutes"
+            }
+        ]
+    }
+]
