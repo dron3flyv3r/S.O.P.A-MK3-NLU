@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the NLU component of the S.O.P.A-MK3 project (Currently in development phase). This is a small "sub" project of the S.O.P.A-MK3 project. The NLU component is responsible for understanding the user's input and extracting the intent and entities from it. The NLU component is built using the BERT model as a base. Else I have used PyTorch with HuggingFace Transformers to build the NLU.
+The S.O.P.A-MK3-NLU is a specialized component of the larger S.O.P.A-MK3 project, which is currently under development. This project is dedicated to enhancing the Natural Language Understanding (NLU) capabilities of an AI smart system. At its core, the NLU component is designed to interpret user input accurately, extracting both the intent and relevant entities. The backbone of this system is the BERT model, renowned for its effectiveness in processing natural language. To further refine the NLU's performance, PyTorch and HuggingFace Transformers have been integrated, providing a robust framework for handling complex language processing tasks. This project stands as a testament to the advances in AI's ability to understand and interact with human language, paving the way for more intuitive and efficient AI-user interactions
 
 ## Installation
 
